@@ -18,13 +18,9 @@ public class TestaContato {
         contato.setContatos(contatos);
 
         contato.imprimeLista(contatos);
-        
-        System.out.println("\n");
 
+        contato.ligarPara("Andre");
 
-        contato.ligarPara("Joaquina");
-        
-       
     
 
 	}

@@ -58,7 +58,6 @@ public class Contato {
         for (Contato contato : this.getContatos()) {
             if (nome.equals(contato.getNome())) {
                 System.out.println("Ligando para ... " + contato.getNome() + " " + contato.getNumeroCelular());
-                break;
             }
         }
     }

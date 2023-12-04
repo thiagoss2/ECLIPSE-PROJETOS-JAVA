@@ -50,7 +50,7 @@ public class Contato {
     public void imprimeLista(List<Contato> contatos) {
         for (Contato contato : contatos) {
             System.out.println("Nome do contato " + contato.getNome() + "\n" +
-                    " Celular do contato " + contato.getNumeroCelular());
+                    " Celular do contato" + contato.getNumeroCelular());
         }
     }
 
@@ -58,7 +58,6 @@ public class Contato {
         for (Contato contato : this.getContatos()) {
             if (nome.equals(contato.getNome())) {
                 System.out.println("Ligando para ... " + contato.getNome() + " " + contato.getNumeroCelular());
-                break;
             }
         }
     }

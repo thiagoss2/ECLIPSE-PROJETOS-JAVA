@@ -17,14 +17,14 @@ public class TestaContato {
 
         contato.setContatos(contatos);
 
-        contato.imprimeLista(contatos);
-        
-        System.out.println("\n");
+        for (Contato pessoa : contatos) {
 
+            System.out.println(pessoa.getNome() + " " + pessoa.getNumeroCelular());
 
-        contato.ligarPara("Joaquina");
-        
-       
+        }
+
+        contato.ligarPara("Andre");
+
     
 
 	}
