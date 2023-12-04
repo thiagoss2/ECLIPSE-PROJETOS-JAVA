@@ -7,21 +7,15 @@ public class Contato {
 
     private String nome;
     private String numeroCelular;
-    
     private List<Contato> contatos;
 
-  
+    Contato(String nome, String numeroCelular) {
+        this.nome = nome;
+        this.numeroCelular = numeroCelular;
 
- 
+    }
 
-    public Contato(String nome, String numeroCelular) {
-	
-		this.nome = nome;
-		this.numeroCelular = numeroCelular;
-		
-	}
-
-	public void setNome(String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 

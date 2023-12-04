@@ -1,0 +1,14 @@
+package br.com.app;
+
+public class TestaContato {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		 Contato contato = new Contato("Pedro", "55 11 8922-7013");
+
+		
+
+	}
+
+}

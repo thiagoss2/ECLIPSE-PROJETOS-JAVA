@@ -1,0 +1,13 @@
+package br.com.app;
+
+public class TestaContato {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		Contato cc = new Contato();
+		
+		System.out.println("Teste");
+	}
+
+}
